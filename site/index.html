@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>YouWatchRepair</title>
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		
+		<header>
+			
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="#">Home</a>
+			  <a href="#">Videos</a>
+			  <a href="#">Upload</a>
+			  <a href="#">Contact</a>
+			</div>
+			
+			
+			<span onclick="openNav()"><img src="img/menu.png"/></span>
+			
+			
+			<h1> YWR </h1>
+			
+		</header>
+
+		
+		<section class="section1">
+						
+			<h3>Choose your device</h3>
+			
+			<div>
+				<select>
+					<option>Apple</option>
+					<option>Samsung</option>
+					<option>Htc</option>
+				</select>
+				<select>
+					<option>iphone</option>
+					<option>Galaxy</option>
+					<option>One</option>
+				</select>
+				<select>
+					<option>5s</option>
+					<option>6</option>
+					<option>6S</option>
+					<option>6 Plus</option>
+					<option>Galaxy S6</option>
+					<option>Galaxy s7 Edge</option>
+					<option>One M8</option>
+					<option>One M9</option>
+				</select>
+			</div>
+			
+			<button>Done !</button>
+			
+			<a href="#section2"><img class="imgarrow" src="img/arrowdown.png"/></a>
+			
+			<img class="imgseparation" src="img/separation.png"/>
+			
+		</section>
+		
+		<section id="section2" class="section2">
+			
+			<h3>Recents</h3>
+			
+			<div class="videos">
+				<img src="img/mac_keyboard.png"/>
+				<p>Mac-Keyboard</p>
+			</div>
+			
+			<div class="videos">
+				<img src="img/iphone_screen.png"/>
+				<p>iPhone-Screen</p>
+			</div>
+			
+			<div class="videos">
+				<img src="img/iphone_battery.png"/>
+				<p>iPhone-battery</p>
+			</div>
+			
+			<div class="videos">
+				<img src="img/iphone_back.png"/>
+				<p>iPhone-Back</p>
+			</div>
+			
+			<div class="videos">
+				<img src="img/mac_trackpad.png"/>
+				<p>Mac_TrackPad</p>
+			</div>
+			
+			<div class="videos">
+				<img src="img/iphone_home_b.png"/>
+				<p>iPhone-Home B.</p>
+			</div>
+			
+			<button>See More</button>
+			
+		</section>
+		
+		
+		
+		
+		<script>
+			
+			function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+			}
+			function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+			}
+			
+		</script>
+	</body>
+	
+</html>
